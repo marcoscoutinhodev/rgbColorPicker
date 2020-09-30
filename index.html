@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>RGB Color Picker</h2>
+
+    <div class="container"> 
+        <div class="color">
+            <label for="redColor">(R) - Red</label>
+            <input type="range" id="rangeRed" name="rangeRed" value="0">
+            <input type="text" id="textRed" name="textRed" value="0" disabled>
+        </div>
+        <div class="color">
+            <label for="greenColor">(G) - Green</label>
+            <input type="range" id="rangeGreen" name="rangeGreen" value="0">
+            <input type="text" id="textGreen" name="textGreen" value="0" disabled>
+        </div>
+        <div class="color">   
+            <label for="blueColor">(B) - Blue</label>
+            <input type="range" id="rangeBlue" name="rangeBlue" value="0">
+            <input type="text" id="textBlue" name="textBlue" value="0" disabled>
+        </div>
+    </div>
+    
+    <div class="result">
+        <div class="displayColor"></div>
+        <p class="displayNumber">RGB(0, 0, 0)</p>
+    </div>
+
+    <hr>
+
+    <div class="author">
+        Developed by: 
+        <span>
+            Marcos Vinicius Coutinho | 
+            <a href="https://www.linkedin.com/in/marcoscoutinhodev/" target="_blank">Linkedin</a> |
+            <a href="https://github.com/marcoscoutinhodev" target="_blank">GitHub</a>
+        </span>
+        <p>Bootcamp Full Stack IGTI - Activity 1.1</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
